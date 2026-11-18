@@ -1,6 +1,44 @@
+# ---- Backend (Maven / Spring Boot) ----
 backend/target/
 backend/storage/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+hs_err_pid*
+replay_pid*
+
+# ---- Frontend (Node / Vite) ----
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+# frontend/.env holds only non-secret defaults and is committed; local overrides are not
+.env.local
+.env.*.local
+
+# ---- IntelliJ IDEA ----
+# Shared project files (misc.xml, modules.xml, *.iml) stay committed; per-user state does not.
 out/
 .idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/dataSources*
+.idea/httpRequests/
+.idea/caches/
+.idea/libraries/
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/amazonq.xml
+
+# ---- VS Code ----
+.vscode/*
+!.vscode/extensions.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
