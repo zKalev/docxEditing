@@ -1,0 +1,6 @@
+backend/target/
+backend/storage/
+frontend/node_modules/
+frontend/dist/
+out/
+.idea/workspace.xml

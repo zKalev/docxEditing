@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+
+html, body, #app { height: 100%; margin: 0; }
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2328;
+  background: #f6f7f9;
+}
+
+#app { display: flex; flex-direction: column; }
+
+.topbar {
+  flex: none;
+  padding: 10px 16px;
+  background: #1f2937;
+}
+.brand { color: #fff; font-weight: 600; text-decoration: none; }
+
+.content { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+
+.page { max-width: 860px; width: 100%; margin: 0 auto; padding: 24px 16px; }
+
+button, .button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid #2563eb;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+button.secondary, .button.secondary { background: #fff; color: #2563eb; }
+button:disabled { opacity: .6; cursor: default; }
+
+.notice { padding: 10px 14px; border-radius: 6px; margin: 12px 0; }
+.notice.error { background: #fde8e8; color: #9b1c1c; }
+.notice.info { background: #e8f0fe; color: #1e40af; }
+.notice.success { background: #e6f6ec; color: #166534; }
