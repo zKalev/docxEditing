@@ -1,0 +1,1 @@
+docker run -d -p 8081:80   --name onlyoffice  -e JWT_SECRET=poc-onlyoffice-jwt-secret-change-me-0123456789  -e ALLOW_PRIVATE_IP_ADDRESS=true  onlyoffice/documentserver:9.4
